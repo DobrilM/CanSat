@@ -1,5 +1,5 @@
 29-november 1531:
-  Got the bmp390 working, went straight ahead for the feather m0 and gave up one the uno :(
+  Got the bmp390 working, went straight ahead to the feather m0 and gave up one the uno :(
   It does give out strange values (1004.25 as opposed to the 1011-ish that we got at school), even though my phone says the same
   main issue could be that we are testing the sensor indoors and not outside, but that's a simple fix
   Also after a bit of research I realized that the pressure at sealevel should be around 1013.25, instead of the other values that
@@ -15,3 +15,11 @@
   https://aprs.gids.nl/nmea/#gga 
   But I'll figure something about it later, right now I'll continue with the gyro/accelometer.
 
+29-november 1946:
+  Well, turns out we forgot to solder the pins for the gyro, so I'll do it next week. Either way I continued on to the rf95 on the feather, 
+  and I ultimately got it running. 
+  Turns out the code is way different than the apc220, but I still got it working in the end. Only thing is, after recieving the message, there is an
+  unknown character (it outputs a box). It's probably a newline character, but because its a cstring, I'll need to look into how to parse it out. 
+  Anyways, tomorrow I'll try the bmp and GPS outside and I'll try to put all the testcode into one file, but wiring the sensors together will 
+  be a challenge, given the fact that I dont have any other wires ;-;. I'll probably get started on the function that calculates the direction for the drone
+  and maybe the function for the Geiger Muller. I probably wont get all done, but at least I'll try.
