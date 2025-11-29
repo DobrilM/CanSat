@@ -5,3 +5,13 @@
   Also after a bit of research I realized that the pressure at sealevel should be around 1013.25, instead of the other values that
   we found online, because those are for the pressure on the ground.
   Anyways going on to the gps system.
+
+
+29-november 1720:
+  Well the GPS is running, i guess... It has a 0.0002 (demical) degree difference from my actual coordinates (both North/South and West/East),
+  which results in a 8m difference from my exact location. Apparently it is due to the fact that i'm inside a building, but the specs of the
+  sensor say that it has an accuracy of ~3m !!!under ideal conditions!!! I am unsure how the other wires, sensors and movement will affect the precision,
+  but if we isolate it from the other parts it should work. Other than that parcing the data will be a hell, given the fact that it is in this wierd format:
+  https://aprs.gids.nl/nmea/#gga 
+  But I'll figure something about it later, right now I'll continue with the gyro/accelometer.
+
