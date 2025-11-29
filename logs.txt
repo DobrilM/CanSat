@@ -1,0 +1,7 @@
+29-november 1531:
+  Got the bmp390 working, went straight ahead for the feather m0 and gave up one the uno :(
+  It does give out strange values (1004.25 as opposed to the 1011-ish that we got at school), even though my phone says the same
+  main issue could be that we are testing the sensor indoors and not outside, but that's a simple fix
+  Also after a bit of research I realized that the pressure at sealevel should be around 1013.25, instead of the other values that
+  we found online, because those are for the pressure on the ground.
+  Anyways going on to the gps system.
