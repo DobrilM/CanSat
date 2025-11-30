@@ -26,4 +26,5 @@
 
 30 november 1528
   Turns out the beforementioned "ideal conditions" (DGPS protocol) for the GPS require input from the ground, which counteracts the "autonomous device"
-  idea. Being outside didnt help either. In fact adding 3 satelites gave me a distance of 20m compared to my real location. But that said, the offset is consistent (a   bit to the northeast), so if i subtract a constant from the decimal degrees it should be fairly accurate.
+  idea. Being outside didnt help either. In fact adding 3 satelites gave me a distance of 20m compared to my real location. But that said, the offset
+  is consistent (a bit to the northeast), so if i subtract a constant from the decimal degrees it should be fairly accurate.
