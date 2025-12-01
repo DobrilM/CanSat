@@ -31,9 +31,9 @@ void loop() {
       return;
 
     if (GPS.fix) {
-      Serial.print(GPS.latitudeDegrees, 6);
+      Serial.print((GPS.latitudeDegrees - 0.000088),6);
       Serial.print(";");
-      Serial.print(GPS.longitudeDegrees, 6);
+      Serial.print((GPS.longitudeDegrees - 0.000575),6);
       Serial.print(";");
       Serial.print(GPS.satellites);
       Serial.print(";");
